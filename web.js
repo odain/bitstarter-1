@@ -6,7 +6,7 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
 fs.readFile('./index.html', function (err, data) {
   if (err) throw err;
-response.send("youpi");
+//response.send("youpi");
 response.send(data);
 });
 //  response.send("toto");
