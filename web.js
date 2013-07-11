@@ -9,7 +9,6 @@ fs.readFile('./index.html', function (err, data) {
 //response.send("youpi");
 response.send(data.toString('utf-8'));
 });
-//  response.send("toto");
 });
 
 var port = process.env.PORT || 5000;
